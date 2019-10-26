@@ -52,9 +52,10 @@ def movies_with_director_key(name, movies_collection)
   director_index = 0 
   
   while director_index < movies_collection.size do 
-    a_o_hashes[name]
+    a_o_hashes[name] = movies_collection(name)
     director_index += 1
-  
+  end
+  a_o_hashes
   
 end
 
