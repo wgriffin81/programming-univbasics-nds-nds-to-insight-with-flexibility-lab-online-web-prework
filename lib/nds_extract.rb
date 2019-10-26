@@ -49,6 +49,11 @@ def movies_with_director_key(name, movies_collection)
   # :director_name key. This addition can be done by using the provided
   # movie_with_director_name method
   a_o_hashes = {}
+  director_index = 0 
+  
+  while director_index < movies_collection.size do 
+    a_o_hashes[name]
+    director_index += 1
   
   
 end
